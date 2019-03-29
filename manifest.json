@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "author": "kazuya gosho",
+  "name": "qiita-adblock",
+  "description": "block qiita advertisement",
+  "version": "0.0.1",
+  "homepage_url": "https://github.com/acro5piano/qiita-adblock",
+  "content_scripts": [
+    {
+      "matches": ["https://qiita.com/*"],
+      "js": ["main.js"]
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "https://qiita.com/*"
+  ]
+}
