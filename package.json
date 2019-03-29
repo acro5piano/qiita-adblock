@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "zip": "zip `basename $PWD`.zip manifest.json main.js"
+  },
   "devDependencies": {
     "prettier": "^1.16.4"
   }
