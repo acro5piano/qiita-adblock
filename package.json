@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "zip": "zip `basename $PWD`.zip manifest.json main.js"
+    "zip": "zip `basename $PWD`.zip manifest.json main.js",
+    "store:screenshot": "convert -resize 1280x800! screenshots/original.png screenshots/store.jpeg"
   },
   "devDependencies": {
     "prettier": "^1.16.4"
